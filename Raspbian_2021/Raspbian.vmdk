@@ -1,0 +1,30 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=e1c51745
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "Raspbian-s001.vmdk"
+RW 8323072 SPARSE "Raspbian-s002.vmdk"
+RW 8323072 SPARSE "Raspbian-s003.vmdk"
+RW 8323072 SPARSE "Raspbian-s004.vmdk"
+RW 8323072 SPARSE "Raspbian-s005.vmdk"
+RW 8323072 SPARSE "Raspbian-s006.vmdk"
+RW 8323072 SPARSE "Raspbian-s007.vmdk"
+RW 8323072 SPARSE "Raspbian-s008.vmdk"
+RW 524288 SPARSE "Raspbian-s009.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "4177"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "c0f4b84f6bc9af1777dce421e1c51745"
+ddb.toolsInstallType = "2"
+ddb.toolsVersion = "10358"
+ddb.uuid = "60 00 C2 96 19 2f ce c6-ad 69 5a 41 59 2d b5 a9"
+ddb.virtualHWVersion = "18"
